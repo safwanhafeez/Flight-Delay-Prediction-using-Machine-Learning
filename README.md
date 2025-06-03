@@ -66,35 +66,56 @@ The project uses three main datasets:
 - **Jupyter Notebook** - Development environment
 
 ## 📁 Project Structure
+Looking at your file hierarchy, here's the updated project structure section for your README:
+markdown## 📁 Project Structure
 flight-delay-prediction-ml/
 │
-├── data/
-│   ├── train.xlsx
-│   ├── test.xlsx
-│   └── weather.xlsx
+├── Data/
+│   ├── balanced.csv
+│   ├── images.jpeg
+│   ├── mergedTest.csv
+│   ├── mergedTrain.csv
+│   ├── test.csv
+│   ├── tester.csv
+│   ├── tester2.csv
+│   ├── Train_preprocessed.csv
+│   ├── train.csv
+│   ├── trainer.csv
+│   ├── trainer2.csv
+│   └── weather.csv
 │
-├── notebooks/
-│   ├── 01_data_preprocessing.ipynb
-│   ├── 02_exploratory_data_analysis.ipynb
-│   ├── 03_feature_engineering.ipynb
-│   ├── 04_binary_classification.ipynb
-│   ├── 05_multiclass_classification.ipynb
-│   └── 06_regression_analysis.ipynb
+├── ML-Proj-Dataset/
+│   ├── CleanedWeather/
+│   ├── Test/
+│   ├── Train/
+│   └── Weather/
 │
-├── src/
-│   ├── data_preprocessing.py
-│   ├── feature_engineering.py
-│   ├── models.py
-│   └── utils.py
+├── Results/
+│   ├── binary.csv
+│   ├── binary2.csv
+│   ├── binary3.csv
+│   ├── binaryHyper.csv
+│   ├── multi.csv
+│   ├── multiHyper.csv
+│   ├── regression_predictions.csv
+│   ├── regression.csv
+│   └── regressionHyper.csv
 │
-├── results/
-│   ├── predictions/
-│   ├── models/
-│   └── visualizations/
+├── Submissions/
+│   ├── submissionBinary.png
+│   ├── submissionBinaryHyper.png
+│   ├── submissionMulti.png
+│   ├── submissionMultiHyper.png
+│   ├── submissionRegression.png
+│   └── submissionRegressionHyper.png
 │
-├── requirements.txt
+├── i220588_Safwan_Hafeez_AI-C_ModelTrainer.ipynb
+├── i220588_Safwan_Hafeez_AI-C_Project.ipynb
+├── i220588_Safwan_Hafeez_AI-C_Project_Report.pdf
+├── Train_merged_Weather.csv
+├── train.csv
 ├── README.md
-└── report.pdf
+└── .gitattributes
 
 ## 📈 Key Features
 
