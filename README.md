@@ -66,8 +66,8 @@ The project uses three main datasets:
 - **Jupyter Notebook** - Development environment
 
 ## 📁 Project Structure
-Looking at your file hierarchy, here's the updated project structure section for your README:
-markdown## 📁 Project Structure
+
+Flight-Delay-Prediction-using-Machine-Learning/
 flight-delay-prediction-ml/
 │
 ├── Data/
