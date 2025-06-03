@@ -66,28 +66,55 @@ The project uses three main datasets:
 - **Jupyter Notebook** - Development environment
 
 ## 📁 Project Structure
-
+```
 Flight-Delay-Prediction-using-Machine-Learning/
-PROJECT/
-├── _pycache_/
-├── images/
-├── include/
-│   ├── _pycache_/
-│   ├── __init__.py
-│   ├── grpc_server.py
-│   ├── grpc_server2.py
-│   ├── model.py
-│   ├── rest_api.py
-│   ├── text2image_pb2_grpc.py
-│   ├── text2image_pb2.py
-│   └── text2image.proto
-├── venv/
-├── .gitattributes
-├── .gitignore
-├── app.py
-├── prompts.txt
+├── Data/
+│   ├── balanced.csv
+│   ├── images.jpeg
+│   ├── mergedTest.csv
+│   ├── mergedTrain.csv
+│   ├── test.csv
+│   ├── tester.csv
+│   ├── tester2.csv
+│   ├── Train_preprocessed.csv
+│   ├── train.csv
+│   ├── trainer.csv
+│   ├── trainer2.csv
+│   └── weather.csv
+│
+├── ML-Proj-Dataset/
+│   ├── CleanedWeather/
+│   ├── Test/
+│   ├── Train/
+│   └── Weather/
+│
+├── Results/
+│   ├── binary.csv
+│   ├── binary2.csv
+│   ├── binary3.csv
+│   ├── binaryHyper.csv
+│   ├── multi.csv
+│   ├── multiHyper.csv
+│   ├── regression_predictions.csv
+│   ├── regression.csv
+│   └── regressionHyper.csv
+│
+├── Submissions/
+│   ├── submissionBinary.png
+│   ├── submissionBinaryHyper.png
+│   ├── submissionMulti.png
+│   ├── submissionMultiHyper.png
+│   ├── submissionRegression.png
+│   └── submissionRegressionHyper.png
+│
+├── i220588_Safwan_Hafeez_AI-C_ModelTrainer.ipynb
+├── i220588_Safwan_Hafeez_AI-C_Project.ipynb
+├── i220588_Safwan_Hafeez_AI-C_Project_Report.pdf
+├── Train_merged_Weather.csv
+├── train.csv
 ├── README.md
-└── requirements.txt
+└── .gitattributes
+```
 
 ## 📈 Key Features
 
